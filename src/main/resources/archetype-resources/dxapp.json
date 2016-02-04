@@ -1,0 +1,10 @@
+{
+  "name": "${appName}",
+  "title": "Title of ${appName}",
+  "summary": "Create ...",
+  "dxapi": "1.0.0",
+  "version": "0.0.1",
+  "categories": [
+    "Research"
+  ]
+}
