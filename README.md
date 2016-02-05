@@ -12,7 +12,7 @@ this structure:
     | --- pom.xml
     | --- src (the conventional sources, Java and test)
 ```
-So, I created the structure like:
+So, I created the archetype structure like:
 ```
 ├── src
 │   ├── main
@@ -41,4 +41,4 @@ So, I created the structure like:
 ```
 And I added the relevant line in this line [archetype descriptor's fileset](https://github.com/kedarmhaswade/is-this-archetype-bug/blob/master/src/main/resources/META-INF/maven/archetype-metadata.xml#L18).
 
-And I believe this is the bug.
+And I believe this is the bug. I couldn't find any workaround to be able create the project in required format from this archetype. If there's a workaround, please suggest.
